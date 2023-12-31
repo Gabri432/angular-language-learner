@@ -1,0 +1,28 @@
+#flashcard {
+    width: 40vh;
+    height: 20vh;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    padding-top: 20vh;
+    font-weight: bold;
+    color: white;
+    font-size: 22px;
+}
+#flashcard:hover {
+    cursor: pointer;
+}
+.left {
+    background-color: blue;
+}
+.right {
+    background-color: red;
+}
+
+@media only screen and (max-width: 599px) {
+    #flashcard {
+        width: 30vh;
+        height: 15vh;
+        padding-top: 15vh;
+    }
+}
