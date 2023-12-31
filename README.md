@@ -1,5 +1,7 @@
 # AngularLanguageLearner
 
+A website that helps learning a new language in a fun way!
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
 
 ## Development server
