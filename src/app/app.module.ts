@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { FlashcardComponent } from './layouts/flashcard/flashcard.component';
 import { HomeComponent } from './routes/home/home.component';
 import { LayoutsModule } from './layouts/layouts.module';
+import { RoutesModule } from './routes/routes.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { LayoutsModule } from './layouts/layouts.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    LayoutsModule
+    LayoutsModule,
+    RoutesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
