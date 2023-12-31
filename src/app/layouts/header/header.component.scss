@@ -1,7 +1,8 @@
 @use '../../../styles.scss' as style;
 
 #header {
-    background-color: style.$gabri-theme;
+    //background-color: style.$gabri-theme;
+    background-image: linear-gradient(90deg, rgb(0, 0, 103), white, red);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     position: fixed;

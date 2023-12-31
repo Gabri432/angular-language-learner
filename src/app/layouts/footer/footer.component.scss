@@ -1,6 +1,7 @@
 @use '../../../styles.scss' as style;
 #footer {
-    background-color: style.$gabri-theme;
+    //background-color: style.$gabri-theme;
+    background-image: linear-gradient(90deg, rgb(0, 0, 103), white, red);
     font-size: 18px;
     color: white;
     padding: 2%;
