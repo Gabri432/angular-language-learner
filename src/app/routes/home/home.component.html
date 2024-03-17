@@ -12,10 +12,12 @@
     <div id="flashcard-area">
         <div></div>
         <div></div>
-        <app-flashcard [wordToDisplay]="'home'" [position]="'left'"></app-flashcard>
+        <app-flashcard [wordToDisplay]="currentOptions[0].english" [position]="'left'"></app-flashcard>
         <div></div>
-        <app-flashcard [wordToDisplay]="'apple'" [position]="'right'"></app-flashcard>
+        <app-flashcard [wordToDisplay]="currentOptions[1].english" [position]="'right'"></app-flashcard>
         <div></div>
         <div></div>
     </div>
 </div>
+
+<button (click)="newTry()">Try again</button>
