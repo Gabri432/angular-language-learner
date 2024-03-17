@@ -10,5 +10,185 @@
     },
     {
         "french": "maison", "english": "house"
+    },
+    {
+        "french": "fleur", "english": "flower"
+    },
+    {
+        "french": "étoil", "english": "star"
+    },
+    {
+        "french": "nuage", "english": "cloud"
+    },
+    {
+        "french": "fleur", "english": "flower"
+    },
+    {
+        "french": "clé", "english": "keys"
+    },
+    {
+        "french": "cuisine", "english": "kitchen"
+    },
+    {
+        "french": "ècole", "english": "school"
+    },
+    {
+        "french": "gare", "english": "station"
+    },
+    {
+        "french": "maire", "english": "mayor"
+    },
+    {
+        "french": "chauffeur", "english": "driver"
+    },
+    {
+        "french": "maman", "english": "mom"
+    },
+    {
+        "french": "cinq", "english": "five"
+    },
+    {
+        "french": "huit", "english": "eight"
+    },
+    {
+        "french": "gauche", "english": "left"
+    },
+    {
+        "french": "droite", "english": "right"
+    },
+    {
+        "french": "perroquet", "english": "parrot"
+    },
+    {
+        "french": "écran", "english": "screen"
+    },
+    {
+        "french": "tête", "english": "head"
+    },
+    {
+        "french": "haine", "english": "hate"
+    },
+    {
+        "french": "faible", "english": "weak"
+    },
+    {
+        "french": "ennui", "english": "boredom"
+    },
+    {
+        "french": "bonheur", "english": "happiness"
+    },
+    {
+        "french": "peur", "english": "fear"
+    },
+    {
+        "french": "confiance", "english": "trust"
+    },
+    {
+        "french": "honte", "english": "shame"
+    },
+    {
+        "french": "fierté", "english": "pride"
+    },
+    {
+        "french": "livre", "english": "book"
+    },
+    {
+        "french": "craie", "english": "chalk"
+    },
+    {
+        "french": "taille crayon", "english": "sharpener"
+    },
+    {
+        "french": "histoire", "english": "history"
+    },
+    {
+        "french": "chimie", "english": "chemistry"
+    },
+    {
+        "french": "chaise", "english": "chair"
+    },
+    {
+        "french": "stylo", "english": "pen"
+    },
+    {
+        "french": "cahier", "english": "notebook"
+    },
+    {
+        "french": "août", "english": "august"
+    },
+    {
+        "french": "fête", "english": "party"
+    },
+    {
+        "french": "avion", "english": "plane"
+    },
+    {
+        "french": "dépanneuse", "english": "tow truck"
+    },
+    {
+        "french": "chemin de fer", "english": "railroad"
+    },
+    {
+        "french": "mairie", "english": "town hall"
+    },
+    {
+        "french": "vitess", "english": "speed"
+    },
+    {
+        "french": "croisement", "english": "crossing"
+    },
+    {
+        "french": "autoroute", "english": "highway"
+    },
+    {
+        "french": "pont", "english": "bridge"
+    },
+    {
+        "french": "presque", "english": "almost"
+    },
+    {
+        "french": "ferme", "english": "farm"
+    },
+    {
+        "french": "plombier", "english": "plumber"
+    },
+    {
+        "french": "pompiste", "english": "gas station attendant"
+    },
+    {
+        "french": "juge", "english": "judge"
+    },
+    {
+        "french": "beacoup", "english": "a lot"
+    },
+    {
+        "french": "vingt", "english": "twenty"
+    },
+    {
+        "french": "dix", "english": "ten"
+    },
+    {
+        "french": "jamais", "english": "never"
+    },
+    {
+        "french": "équipe", "english": "team"
+    },
+    {
+        "french": "herbe", "english": "grass"
+    },
+    {
+        "french": "buisson", "english": "bush"
+    },
+    {
+        "french": "lit", "english": "bed"
+    },
+    {
+        "french": "oreiller", "english": "pillow"
+    },
+    {
+        "french": "sol", "english": "ground"
+    },
+    {
+        "french": "douche", "english": "shower"
     }
 ]
