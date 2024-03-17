@@ -12,13 +12,11 @@
     <div id="flashcard-area">
         <div></div>
         <div></div>
-        <app-flashcard [wordToDisplay]="currentOptions[0].english" [position]="'left'"></app-flashcard>
+        <app-flashcard [wordToDisplay]="currentOptions[0].english" [position]="'left'" (click)="getGivenAnswer(currentOptions[0].english)"></app-flashcard>
         <div></div>
-        <app-flashcard [wordToDisplay]="currentOptions[1].english" [position]="'right'"></app-flashcard>
+        <app-flashcard [wordToDisplay]="currentOptions[1].english" [position]="'right'" (click)="getGivenAnswer(currentOptions[1].english)"></app-flashcard>
         <div></div>
         <div></div>
     </div>
-    <div id="button-area">
-        <button (click)="newTry()">Try again</button>
-    </div>
+    <div id="counter">Record: {{counter}}</div>
 </div>

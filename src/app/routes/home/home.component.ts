@@ -10,8 +10,10 @@ import { VocabularyService } from 'src/app/services/getWords.service';
 export class HomeComponent {
   private words: Word[] = [];
   currentOptions: Word[] = [{"english": "", "french": ""}, {"english": "", "french": ""}];
+  counter = 0;
 
   @Input() frenchWord: string = "pomme";
+  private correctAnswer: string = "apple";
 
   constructor(private getWords: VocabularyService) { }
 
@@ -43,10 +45,22 @@ export class HomeComponent {
   generateWordToGuess(): void {
     const pick = Math.floor(Math.random() * this.currentOptions.length);
     this.frenchWord = this.currentOptions[pick].french;
+    this.correctAnswer = this.currentOptions[pick].english;
   }
 
   newTry(): void {
     this.pickNewWords();
     this.generateWordToGuess();
+  }
+
+  getGivenAnswer(answer: string): void {
+    if (answer == this.correctAnswer) {
+      console.log("Correct!");
+      this.counter++;
+    } else {
+      console.log("Wrong!");
+      this.counter = 0;
+    }
+    this.newTry();
   }
 }
