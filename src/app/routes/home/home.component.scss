@@ -22,6 +22,12 @@
         grid-template-columns: repeat(7, 1fr);
     }
 
+    #popup-area {
+        display: none;
+        width: 100vh;
+        background-color: green;
+    }
+
     #counter, #timer {
         text-align: center;
         font-weight: bold;

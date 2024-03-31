@@ -1,0 +1,32 @@
+#popup{
+    border: 1px solid grey;
+    width: 30%;
+    height: fit-content;
+    border-radius: 5px;
+    margin-left: 30%;
+    color: #000;
+    background-color: #a3a3a3;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    padding: 5%;
+    z-index: 9999;
+    display: block;
+    position: fixed;
+    top: 20%;
+
+    #retry-button {
+        width: fit-content;
+        text-align: center;
+        display: inline;
+    }
+
+    button {
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 22px;
+        outline: none;
+        border: none;
+        background-color: #a3a3a3;
+    }
+}

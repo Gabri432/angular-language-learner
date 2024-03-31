@@ -18,6 +18,9 @@
         <div></div>
         <div></div>
     </div>
+    <div id="popup-area">
+        <app-popup [score]="counter" (retry)="onButtonRetryClicked($event)"></app-popup>
+    </div>
     <div id="footer-area">
         <div id="counter">Record: {{counter}}</div>
         <div id="timer">Time: {{currentTimeLeft}} seconds</div>

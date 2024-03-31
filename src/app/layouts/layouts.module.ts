@@ -4,6 +4,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { RouterModule } from '@angular/router';
 import { FlashcardComponent } from './flashcard/flashcard.component';
+import { PopupComponent } from './popup/popup.component';
 
 
 
@@ -12,9 +13,10 @@ import { FlashcardComponent } from './flashcard/flashcard.component';
   
     HeaderComponent,
     FooterComponent,
-    FlashcardComponent
+    FlashcardComponent,
+    PopupComponent
   ],
-  exports: [HeaderComponent, FooterComponent, FlashcardComponent],
+  exports: [HeaderComponent, FooterComponent, FlashcardComponent, PopupComponent],
   imports: [
     CommonModule,
     RouterModule

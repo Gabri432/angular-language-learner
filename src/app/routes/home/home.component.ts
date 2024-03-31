@@ -11,7 +11,7 @@ export class HomeComponent {
   private words: Word[] = [];
   currentOptions: Word[] = [{"english": "", "french": ""}, {"english": "", "french": ""}];
   counter = 0;
-  currentTimeLeft = 59;
+  currentTimeLeft = 29;
 
   @Input() frenchWord: string = "pomme";
   private correctAnswer: string = "apple";
@@ -67,11 +67,28 @@ export class HomeComponent {
   }
 
   async updateTime(): Promise<void> {
-      const endTime = 59;
+      const endTime = 29;
     
       for (let count = 0; count < endTime; count++) {
         this.currentTimeLeft--;
         await new Promise(resolve => setTimeout(resolve, 1000));
+        if (this.currentTimeLeft <= 20) {
+          document.getElementById("popup-area")!.style.display = "block";
+          document.getElementById("flashcard-area")!.style.display = "none";
+          document.getElementById("footer-area")!.style.opacity = "0.5";
+          document.getElementById("title-area")!.style.opacity = "0.5";
+        }
       }
     }
-  }
+
+  onButtonRetryClicked(buttonType: string): void {
+    if (buttonType == "retry")
+    document.getElementById("popup-area")!.style.display = "none";
+    document.getElementById("flashcard-area")!.style.display = "grid";
+    document.getElementById("footer-area")!.style.opacity = "1";
+    document.getElementById("title-area")!.style.opacity = "1";
+    this.currentTimeLeft = 29;
+    this.counter = 0;
+    this.newTry();
+  } 
+}
