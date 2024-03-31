@@ -190,5 +190,296 @@
     },
     {
         "french": "douche", "english": "shower"
+    },
+    {
+        "french": "manger", "english": "to eat"
+    },
+    {
+        "french": "dormir", "english": "to sleep"
+    },
+    {
+        "french": "cuisiner", "english": "to cook"
+    },
+    {
+        "french": "courir", "english": "to run"
+    },
+    {
+        "french": "éternuer", "english": "to sneeze"
+    },
+    {
+        "french": "acheter", "english": "to buy"
+    },
+    {
+        "french": "lancer", "english": "to throw"
+    },
+    {
+        "french": "parler", "english": "to speak"
+    },
+    {
+        "french": "prendre", "english": "to take"
+    },
+    {
+        "french": "travailler", "english": "to work"
+    },
+    {
+        "french": "conduire", "english": "to drive"
+    },
+    {
+        "french": "écrire", "english": "to write"
+    },
+    {
+        "french": "lire", "english": "to read"
+    },
+    {
+        "french": "chanter", "english": "to sing"
+    },
+    {
+        "french": "nettoyer", "english": "to clean"
+    },
+    {
+        "french": "escalader", "english": "to climb"
+    },
+    {
+        "french": "boire", "english": "to drink"
+    },
+    {
+        "french": "répéter", "english": "to repeat"
+    },
+    {
+        "french": "voyager", "english": "to travel"
+    },
+    {
+        "french": "oublier", "english": "to forget"
+    },
+    {
+        "french": "pardonner", "english": "to forgive"
+    },
+    {
+        "french": "refuser", "english": "to deny"
+    },
+    {
+        "french": "dire", "english": "to say"
+    },
+    {
+        "french": "ouvrir", "english": "to open"
+    },
+    {
+        "french": "fermer", "english": "to close"
+    },
+    {
+        "french": "construire", "english": "to build"
+    },
+    {
+        "french": "rencontrer", "english": "to meet"
+    },
+    {
+        "french": "saluer", "english": "to greet"
+    },
+    {
+        "french": "deviner", "english": "to guess"
+    },
+    {
+        "french": "attraper", "english": "to catch"
+    },
+    {
+        "french": "perdre", "english": "to lose"
+    },
+    {
+        "french": "gagner", "english": "to win"
+    },
+    {
+        "french": "tenir", "english": "to hold"
+    },
+    {
+        "french": "libérer", "english": "to release"
+    },
+    {
+        "french": "ramasser", "english": "to pick up"
+    },
+    {
+        "french": "laisser tomber", "english": "to drop"
+    },
+    {
+        "french": "réserver", "english": "to book"
+    },
+    {
+        "french": "annuler", "english": "to cancel"
+    },
+    {
+        "french": "voir", "english": "to see"
+    },
+    {
+        "french": "entendre", "english": "to hear"
+    },
+    {
+        "french": "toucher", "english": "to touch"
+    },
+    {
+        "french": "goûter", "english": "to taste"
+    },
+    {
+        "french": "remplir", "english": "to fill"
+    },
+    {
+        "french": "à vider", "english": "to empty"
+    },
+    {
+        "french": "être", "english": "to be"
+    },
+    {
+        "french": "avoir", "english": "to have"
+    },
+    {
+        "french": "désirer", "english": "to desire"
+    },
+    {
+        "french": "décider", "english": "to decide"
+    },
+    {
+        "french": "juger", "english": "to judge"
+    },
+    {
+        "french": "écouter", "english": "to listen"
+    },
+    {
+        "french": "croire", "english": "to believe"
+    },
+    {
+        "french": "vouloir", "english": "to want"
+    },
+    {
+        "french": "insérer", "english": "to insert"
+    },
+    {
+        "french": "dessiner", "english": "to draw"
+    },
+    {
+        "french": "marcher", "english": "to walk"
+    },
+    {
+        "french": "traverser", "english": "to cross"
+    },
+    {
+        "french": "calmer", "english": "to calm"
+    },
+    {
+        "french": "vendre", "english": "to sell"
+    },
+    {
+        "french": "souhaiter", "english": "to wish"
+    },
+    {
+        "french": "éléphant", "english": "elephant"
+    },
+    {
+        "french": "girafe", "english": "giraffe"
+    },
+    {
+        "french": "oiseau", "english": "bird"
+    },
+    {
+        "french": "requin", "english": "shark"
+    },
+    {
+        "french": "orque", "english": "killer whale"
+    },
+    {
+        "french": "baleine", "english": "whale"
+    },
+    {
+        "french": "éléphant", "english": "elephant"
+    },
+    {
+        "french": "guépard", "english": "cheetah"
+    },
+    {
+        "french": "ours", "english": "bear"
+    },
+    {
+        "french": "cafard", "english": "cockroach"
+    },
+    {
+        "french": "poisson", "english": "fish"
+    },
+    {
+        "french": "calmar", "english": "squid"
+    },
+    {
+        "french": "méduse", "english": "jellyfish"
+    },
+    {
+        "french": "poisson-globe", "english": "puffer fish"
+    },
+    {
+        "french": "aigle", "english": "eagle"
+    },
+    {
+        "french": "canard", "english": "duck"
+    },
+    {
+        "french": "abeille", "english": "bee"
+    },
+    {
+        "french": "guêpe", "english": "wasp"
+    },
+    {
+        "french": "frelon", "english": "hornet"
+    },
+    {
+        "french": "agneau", "english": "lamb"
+    },
+    {
+        "french": "faucon", "english": "falcon"
+    },
+    {
+        "french": "autruche", "english": "ostrich"
+    },
+    {
+        "french": "araignée", "english": "spider"
+    },
+    {
+        "french": "ornithorynque", "english": "platypus"
+    },
+    {
+        "french": "mouette", "english": "seagull"
+    },
+    {
+        "french": "moustique", "english": "mosquito"
+    },
+    {
+        "french": "lapin", "english": "bunny"
+    },
+    {
+        "french": "serpent", "english": "snake"
+    },
+    {
+        "french": "rhinocéros", "english": "rhino"
+    },
+    {
+        "french": "souris", "english": "mouse"
+    },
+    {
+        "french": "tortue", "english": "turtle"
+    },
+    {
+        "french": "grenouille", "english": "frog"
+    },
+    {
+        "french": "vache", "english": "cow"
+    },
+    {
+        "french": "oie", "english": "goose"
+    },
+    {
+        "french": "chauve souris", "english": "bat"
+    },
+    {
+        "french": "corbeau", "english": "raven"
+    },
+    {
+        "french": "sauterelle", "english": "grasshopper"
+    },
+    {
+        "french": "élan", "english": "moose"
     }
 ]
