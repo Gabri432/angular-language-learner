@@ -11,6 +11,7 @@ export class HomeComponent {
   private words: Word[] = [];
   currentOptions: Word[] = [{"english": "", "french": ""}, {"english": "", "french": ""}];
   counter = 0;
+  currentTimeLeft = 59;
 
   @Input() frenchWord: string = "pomme";
   private correctAnswer: string = "apple";
@@ -24,6 +25,7 @@ export class HomeComponent {
       }
       this.pickNewWords();
       this.generateWordToGuess();
+      this.updateTime();
     });
   }
 
@@ -63,4 +65,13 @@ export class HomeComponent {
     }
     this.newTry();
   }
-}
+
+  async updateTime(): Promise<void> {
+      const endTime = 59;
+    
+      for (let count = 0; count < endTime; count++) {
+        this.currentTimeLeft--;
+        await new Promise(resolve => setTimeout(resolve, 1000));
+      }
+    }
+  }

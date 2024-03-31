@@ -22,10 +22,14 @@
         grid-template-columns: repeat(7, 1fr);
     }
 
-    #counter {
+    #counter, #timer {
         text-align: center;
         font-weight: bold;
         font-size: 24px;
         margin-top: 5%;
+    }
+    #footer-area {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
