@@ -328,5 +328,35 @@
     },
     {
         "french": "avoir", "english": "to have"
+    },
+    {
+        "french": "désirer", "english": "to desire"
+    },
+    {
+        "french": "décider", "english": "to decide"
+    },
+    {
+        "french": "juger", "english": "to judge"
+    },
+    {
+        "french": "écouter", "english": "to listen"
+    },
+    {
+        "french": "croire", "english": "to believe"
+    },
+    {
+        "french": "vouloir", "english": "to want"
+    },
+    {
+        "french": "insérer", "english": "to insert"
+    },
+    {
+        "french": "dessiner", "english": "to draw"
+    },
+    {
+        "french": "marcher", "english": "to walk"
+    },
+    {
+        "french": "traverser", "english": "to cross"
     }
 ]
