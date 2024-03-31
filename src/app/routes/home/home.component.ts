@@ -72,7 +72,7 @@ export class HomeComponent {
       for (let count = 0; count < endTime; count++) {
         this.currentTimeLeft--;
         await new Promise(resolve => setTimeout(resolve, 1000));
-        if (this.currentTimeLeft <= 20) {
+        if (this.currentTimeLeft == 0) {
           document.getElementById("popup-area")!.style.display = "block";
           document.getElementById("flashcard-area")!.style.display = "none";
           document.getElementById("footer-area")!.style.opacity = "0.5";
@@ -89,6 +89,7 @@ export class HomeComponent {
     document.getElementById("title-area")!.style.opacity = "1";
     this.currentTimeLeft = 29;
     this.counter = 0;
+    this.updateTime();
     this.newTry();
   } 
 }
